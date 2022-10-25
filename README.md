@@ -53,3 +53,11 @@ Una ServiceWorker es capaz de alterar las respuestas del servidor, interceptar l
 Lo que hace interesante es que a través de esta tecnología y la capacidad de actualizar y almacenar archivos en el caché del navegador, podemos ofrecer respuesta a peticiones aún sin internet.
 
 ![Service Workers: ¿Qué son y cómo se comen? | by Anuar Harb | Medium](https://miro.medium.com/max/1400/0*0kDS64pU8BNIDbSp)
+
+
+
+## Qué son interfaces en PHP.
+
+Las interfaces de objetos son contratos que han de cumplir las clases que las implementan. Contienen métodos vacíos que obligan a una clase a emplearlos, promoviendo así un estándar de desarrollo.
+
+![image-20221024194640313](C:\Users\jpman\AppData\Roaming\Typora\typora-user-images\image-20221024194640313.png)
