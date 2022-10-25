@@ -37,3 +37,19 @@ El método trigger() activa el evento especificado y el comportamiento predeterm
 Los JSON son cadenas - útiles cuando se quiere transmitir datos a través de una red. Debe ser convertido a un objeto nativo de JavaScript cuando se requiera acceder a sus datos. Ésto no es un problema, dado que JavaScript posee un objeto global JSON que tiene los métodos disponibles para convertir entre ellos.
 
 ![Te Decimos Qué Es JSON y Cómo Usarlo En Tu Sitio Web](https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2020/01/json-value.jpg)
+
+## Qué es un worker y service worker.
+
+### Worker
+
+Hacen posible ejecutar la operación de un script en un hilo en segundo plano separado de la ejecución el hilo principal de la aplicación web. La ventaja de esto es que un proceso laborioso puede actuar en un hilo separado, permitiendo al hilo principal (normlamente la UI) ejecutarse sin ser bloqueado o ralentizado.
+
+![Decálogo de capacidades del digital worker - Think Big Empresas](https://empresas.blogthinkbig.com/wp-content/uploads/2019/10/digital-worker-2.png?fit=1200%2C527?w=800)
+
+### ServiceWorker
+
+Una ServiceWorker es capaz de alterar las respuestas del servidor, interceptar las peticiones del cliente, mandar información específica a ciertas direcciones, recibir notificaciones push, hacer actualizaciones aunque la página no esté abierta, y eventualmente se irán añadiendo otras capacidades a esta sección del navegador.
+
+Lo que hace interesante es que a través de esta tecnología y la capacidad de actualizar y almacenar archivos en el caché del navegador, podemos ofrecer respuesta a peticiones aún sin internet.
+
+![Service Workers: ¿Qué son y cómo se comen? | by Anuar Harb | Medium](https://miro.medium.com/max/1400/0*0kDS64pU8BNIDbSp)
